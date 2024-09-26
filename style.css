@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(/Resimler/Arka\ plan.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(9px);
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.left-bar{
+    width: 100%;
+    background-image: url(/Resimler/Arka\ plan.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.right-bar{
+    text-align: center;
+    padding: 30px 50px;
+    width: 90%;
+}
+
+.right-bar-title{
+    font-size: 27px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid blue;
+    display: inline-block;
+    padding-bottom: 7px;
+    border-radius: 2px;
+}
+
+.right-bar-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field{
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    border: 2px solid #e9e9e9;
+}
+
+.form-btn{
+    border: none;
+    background-color: rgb(55, 164, 55);
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.field:focus{
+    border: 2px solid blue;
+    background-color: #d5d4d4;
+}
+
+
+textarea{
+    resize: none;
+}
